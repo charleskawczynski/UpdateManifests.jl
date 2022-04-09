@@ -1,0 +1,18 @@
+block_labels = [ "DO NOT MERGE" ]
+
+delete_merged_branches = true
+
+status = [
+    "Doctests",
+    "Documentation",
+    "Integration/Julia 1/ubuntu-latest/x64",
+    "Unit/Julia 1.6.0/ubuntu-latest/x64",
+    "Unit/Julia 1.6/ubuntu-latest/x64",
+    "Unit/Julia 1/ubuntu-latest/x64",
+    "Unit/Julia nightly/ubuntu-latest/x64",
+    "codecov/patch",
+    "codecov/project",
+    "codecov/project/minimum",
+]
+
+timeout_sec = 1800
